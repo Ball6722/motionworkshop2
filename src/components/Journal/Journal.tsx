@@ -1,5 +1,4 @@
 'use client'
-
 import { motion } from "framer-motion"
 import Image from "next/image"
 const Journal = () => {
@@ -56,7 +55,7 @@ const Journal = () => {
             {/* card section */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-14 mt-14 place-items-center">
               {
-                journalData.map((item, index)=>(
+                journalData.map((item)=>(
                   <motion.div 
                   initial={{ opacity:0, y:50 }}
                   whileInView={{ opacity: 1, y:0 }}

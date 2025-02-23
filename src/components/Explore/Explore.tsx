@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from "framer-motion"
-import { slideUp, slideBottom } from "@/utility/animation"
+import { slideUp } from "@/utility/animation"
 import Image from "next/image"
 const Explore = () => {
   const img1 = '/assets/1.jpg'
