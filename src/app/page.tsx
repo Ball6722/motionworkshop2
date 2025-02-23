@@ -3,7 +3,6 @@ import Footer from "@/components/Footer/Footer";
 import Hero from "@/components/Hero/Hero";
 import Journal from "@/components/Journal/Journal";
 import Navbar from "@/components/Navbar/Navbar";
-import Image from "next/image";
 import React from "react";
 
 export default function Home() {
